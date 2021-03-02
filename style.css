@@ -1,0 +1,106 @@
+*	{
+	margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: ;
+    font-family: 'Kumbh Sans', sans-serif;
+    color: hsl(229, 23%, 23%);
+}
+
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    background: url("https://res.cloudinary.com/dswzzr09g/image/upload/v1614598120/bg-pattern-top_viyyqj.svg")
+    no-repeat -250px -500px, url("https://res.cloudinary.com/dswzzr09g/image/upload/v1614598042/bg-pattern-bottom_fx7vuw.svg") 500px 300px no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    background-color: #1ea2ad;
+}
+
+.content-area {
+    height: 400px;
+    width: 320px;
+    border: 1px solid #1ea2ad;
+    border-radius: 10px;
+    margin: auto;
+    background-color: #fff;
+}
+
+.content {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    border-top-left-radius: inherit;
+    border-top-right-radius: inherit;
+    align-items: center;
+    background: url("https://res.cloudinary.com/dswzzr09g/image/upload/v1614598106/bg-pattern-card_uz0f7n.svg") no-repeat;
+}
+
+.content img {
+    display: flex;
+    border-radius: 50%;
+    border: 8px solid #ffffff;
+    position: absolute;
+    top: 93px;
+    left: 103px;
+    background-color: #fff;
+}
+
+.name {
+    margin-top: 4em;
+    border-bottom: 1px solid hsl(0, 0%, 91%);
+    padding-bottom: 2em;
+}
+
+.name h1 {
+    font-size: 18px;
+    padding-bottom: 0.5em;
+    text-align: center;
+}
+
+.name h1 span {
+    color: hsl(227, 10%, 46%);
+}
+
+.name p {
+    text-align: center;
+    color: hsl(227, 10%, 46%);
+}
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+    padding: 1.3em;
+}
+
+.stats h3 {
+    font-size: 18px;
+    text-align: center;
+}
+
+.stats h3 span {
+   color:  hsl(227, 10%, 46%);
+   font-size: 12px;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+
+.attribution a { color: hsl(228, 45%, 44%); }
+
+
+@media screen and (max-width:375px) {
+    .container {
+        width: 100%;
+        background: none;
+        background-color: #1ea2ad;
+        margin: 0;
+    }
+   }
